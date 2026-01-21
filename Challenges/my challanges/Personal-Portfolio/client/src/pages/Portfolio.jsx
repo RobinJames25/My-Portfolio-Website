@@ -1,6 +1,6 @@
 import '../css/Portfolio.css'
-import project1 from '../assets/Flashcard-Generator-App.png';
-import project2  from '../assets/Aferis-Shoe-Store.png';
+import FlashcardGeneratorApp from '../assets/Flashcard-Generator-App.png';
+import AferisShoeStore  from '../assets/Aferis-Shoe-Store.png';
 import project3  from '../assets/project-3.jpg';
 import project4  from '../assets/project-4.png';
 import project5  from '../assets/project-5.png';
@@ -16,8 +16,8 @@ export default function Portfolio({ isActive }) {
     const [selectedCategory, setSelectedCategory] = useState('All');
 
     const projects = [
-        { id: 1, title: 'Flashcard Generator application', category: 'Web development', img: project1 },
-        { id: 2, title: 'Aferis Shoe Store', category: 'Web development', img: project2 },
+        { id: 1, title: 'Flashcard Generator application', category: 'Web development', img: FlashcardGeneratorApp },
+        { id: 2, title: 'Aferis Shoe Store', category: 'Web development', img: AferisShoeStore },
         { id: 3, title: 'Fundo', category: 'Web design', img: project3 },
         { id: 4, title: 'Brawlhalla', category: 'Applications', img: project4 },
         { id: 5, title: 'DSM.', category: 'Web design', img: project5 },
