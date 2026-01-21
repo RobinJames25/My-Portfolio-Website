@@ -17,7 +17,7 @@ export default function Portfolio({ isActive }) {
 
     const projects = [
         { id: 1, title: 'Flashcard Generator application', category: 'Web development', img: project1 },
-        { id: 2, title: 'Orizon', category: 'Web development', img: project2 },
+        { id: 2, title: 'Aferis Shoe Store', category: 'Web development', img: project2 },
         { id: 3, title: 'Fundo', category: 'Web design', img: project3 },
         { id: 4, title: 'Brawlhalla', category: 'Applications', img: project4 },
         { id: 5, title: 'DSM.', category: 'Web design', img: project5 },
