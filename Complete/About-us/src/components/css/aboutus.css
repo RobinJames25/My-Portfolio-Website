@@ -1,0 +1,283 @@
+.about-hero {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 25/8;
+  overflow: hidden;
+  text-align: center;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 20px;
+}
+
+.about-hero img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+}
+
+.about-hero h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+.about-section {
+  max-width: 960px;
+  margin: 1rem auto;
+  padding: 0 1rem;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.about-section h2 .icon {
+  color: var(--main-color);
+  margin-right: 0.5rem;
+}
+
+.check-list {
+  list-style: none;
+  padding-left: 1rem;
+}
+
+.check-list li {
+  position: relative;
+  padding-left: 2rem;
+  margin-bottom: 1rem;
+}
+
+.check-list li::before {
+  content: "\f00c";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: var(--main-color);
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.no-bullets {
+  list-style: none;
+  padding-left: 1rem;
+}
+
+.no-bullets li {
+  margin-bottom: 1rem;
+}
+
+.about-section span {
+  font-weight: bold;
+}
+
+.about-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  max-width: 960px;
+  margin: 2rem auto;
+  padding: 1 1rem;
+  flex-wrap: wrap;
+}
+
+.about-box {
+  flex: 1;
+  min-width: 280px;
+  background-color: var(--light-gray);
+  padding: 1.5rem;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+}
+
+.about-divider {
+  margin: 2rem auto;
+  width: 100%;
+  border: none;
+  border-top: 8px solid var(--main-color);
+  border-radius: 50px;
+}
+
+.about-divider-text {
+  width: 70%;
+  margin: 2rem auto;
+  padding: 0.5rem 1rem;
+  background-color: var(--main-color);
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.25rem;
+  border-radius: 10px;
+  box-shadow: var(--shadow);
+}
+
+/* Existing styles unchanged ... */
+
+.about-hero {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 25 / 8;
+  overflow: hidden;
+  text-align: center;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+.about-hero img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+}
+
+.about-hero h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+.about-section {
+  max-width: 960px;
+  margin: 1rem auto;
+  padding: 0 1rem;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.about-section h2 .icon {
+  color: var(--main-color);
+  margin-right: 0.5rem;
+}
+
+.check-list {
+  list-style: none;
+  padding-left: 1rem;
+}
+
+.check-list li {
+  position: relative;
+  padding-left: 2rem;
+  margin-bottom: 1rem;
+}
+
+.check-list li::before {
+  content: "\f00c";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: var(--main-color);
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.no-bullets {
+  list-style: none;
+  padding-left: 1rem;
+}
+
+.no-bullets li {
+  margin-bottom: 1rem;
+}
+
+.about-section span {
+  font-weight: bold;
+}
+
+.about-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  max-width: 960px;
+  margin: 2rem auto;
+  padding: 1 1rem;
+  flex-wrap: wrap;
+}
+
+.about-box {
+  flex: 1;
+  min-width: 280px;
+  background-color: var(--light-gray);
+  padding: 1.5rem;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+}
+
+.about-divider {
+  margin: 2rem auto;
+  width: 100%;
+  border: none;
+  border-top: 8px solid var(--main-color);
+  border-radius: 50px;
+}
+
+.about-divider-text {
+  width: 70%;
+  margin: 2rem auto;
+  padding: 0.5rem 1rem;
+  background-color: var(--main-color);
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.25rem;
+  border-radius: 10px;
+  box-shadow: var(--shadow);
+}
+
+/* --- Responsive Styles --- */
+@media (max-width: 768px) {
+  .about-hero h1 {
+    font-size: 2.2rem;
+  }
+  
+  .about-section {
+    font-size: 1rem;
+    padding: 0 0.8rem;
+  }
+
+  .about-row {
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-hero {
+    aspect-ratio: auto;
+    margin-top: 60px;
+  }
+
+  .about-hero h1 {
+    font-size: 1.6rem;
+    padding: 0 1rem;
+  }
+
+  .about-section {
+    max-width: 100%;
+    margin: 1rem 0.5rem;
+    padding: 0 0.5rem;
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+
+  .about-row {
+    flex-direction: column;
+    margin: 1rem 0.5rem;
+  }
+
+  .about-box {
+    min-width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .about-divider-text {
+    width: 90%;
+    font-size: 1rem;
+    margin: 1rem auto;
+    padding: 0.5rem;
+  }
+}
