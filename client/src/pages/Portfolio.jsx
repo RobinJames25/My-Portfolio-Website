@@ -1,7 +1,7 @@
 import '../css/Portfolio.css'
 import FlashcardGeneratorApp from '../assets/Flashcard-Generator-App.png';
 import AferisShoeStore  from '../assets/Aferis-Shoe-Store.png';
-import project3  from '../assets/project-3.jpg';
+import ConferenceTicketGenerator  from '../assets/ConferenceTicketGenerator.png';
 import project4  from '../assets/project-4.png';
 import project5  from '../assets/project-5.png';
 import project6  from '../assets/project-6.png';
@@ -18,7 +18,7 @@ export default function Portfolio({ isActive }) {
     const projects = [
         { id: 1, title: 'Flashcard Generator application', category: 'Web development', img: FlashcardGeneratorApp },
         { id: 2, title: 'Aferis Shoe Store', category: 'Web development', img: AferisShoeStore },
-        { id: 3, title: 'Fundo', category: 'Web design', img: project3 },
+        { id: 3, title: 'ConferenceTicketGenerator', category: 'Web development', img: ConferenceTicketGenerator },
         { id: 4, title: 'Brawlhalla', category: 'Applications', img: project4 },
         { id: 5, title: 'DSM.', category: 'Web design', img: project5 },
         { id: 6, title: 'MetaSpark', category: 'Web design', img: project6 },
