@@ -2,13 +2,14 @@ import '../css/Portfolio.css'
 import FlashcardGeneratorApp from '../assets/Flashcard-Generator-App.png';
 import AferisShoeStore  from '../assets/Aferis-Shoe-Store.png';
 import ConferenceTicketGenerator  from '../assets/ConferenceTicketGenerator.png';
-import project4  from '../assets/project-4.png';
-import project5  from '../assets/project-5.png';
-import project6  from '../assets/project-6.png';
-import project7  from '../assets/project-7.png';
-import project8  from '../assets/project-8.jpg';
-import project9  from '../assets/project-9.png';
+import SimpleCalculator  from '../assets/SimpleCalculator.png';
+import BlogCardPreview  from '../assets/Blog-card-preview.png';
+import MultiStepForm  from '../assets/MultiStepForm.png';
+import ProductListCartComponent  from '../assets/ProductListCartComponent.png';
+import BentoGridChallenge  from '../assets/BentoGridChallenge.png';
+import RandomQuoteGenerator  from '../assets/RandomQuoteGenerator.png';
 import { useState } from 'react';
+
 
 
 export default function Portfolio({ isActive }) {
@@ -18,13 +19,13 @@ export default function Portfolio({ isActive }) {
     const projects = [
         { id: 1, title: 'Flashcard Generator application', category: 'Web development', img: FlashcardGeneratorApp, url: 'https://flashcard-app-woad-zeta.vercel.app' },
         { id: 2, title: 'Aferis Shoe Store', category: 'Web development', img: AferisShoeStore, url: 'https://aferis-client.vercel.app/' },
-        { id: 3, title: 'ConferenceTicketGenerator', category: 'Web development', img: ConferenceTicketGenerator, url: 'https://conference-ticket-generator-three.vercel.app' },
-        { id: 4, title: 'Brawlhalla', category: 'Applications', img: project4 },
-        { id: 5, title: 'DSM.', category: 'Web design', img: project5 },
-        { id: 6, title: 'MetaSpark', category: 'Web design', img: project6 },
-        { id: 7, title: 'Summary', category: 'Web development', img: project7 },
-        { id: 8, title: 'Task Manager', category: 'Applications', img: project8 },
-        { id: 9, title: 'Arrival', category: 'Web development', img: project9 },
+        { id: 3, title: 'Conference Ticket Generator', category: 'Web development', img: ConferenceTicketGenerator, url: 'https://conference-ticket-generator-three.vercel.app' },
+        { id: 4, title: 'SimpleCalculator', category: 'Web development', img: SimpleCalculator, url: 'https://simple-calculator-six-self.vercel.app' },
+        { id: 5, title: 'Blog Card Preview', category: 'Web development', img: BlogCardPreview, url: 'https://blog-preview-card-three-theta.vercel.app' },
+        { id: 6, title: 'Multi Step Form', category: 'Web development', img: MultiStepForm, url: 'https://multi-step-form-three-psi.vercel.app/' },
+        { id: 7, title: 'Product List Cart Component', category: 'Web development', img: ProductListCartComponent, url: 'https://product-cart-wheat-two.vercel.app/' },
+        { id: 8, title: 'Bento Grid Challenge', category: 'Web development', img: BentoGridChallenge, url: 'https://robinjames25.github.io/Bento-Grid-Challenge/' },
+        { id: 9, title: 'Random Quote Generator', category: 'Web development', img: RandomQuoteGenerator, url: 'https://quote-generator-nine-mu.vercel.app/' },
     ]
 
     const filteredProjects = projects.filter(project =>
