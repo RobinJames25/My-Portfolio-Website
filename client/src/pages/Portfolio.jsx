@@ -16,9 +16,9 @@ export default function Portfolio({ isActive }) {
     const [selectedCategory, setSelectedCategory] = useState('All');
 
     const projects = [
-        { id: 1, title: 'Flashcard Generator application', category: 'Web development', img: FlashcardGeneratorApp },
-        { id: 2, title: 'Aferis Shoe Store', category: 'Web development', img: AferisShoeStore },
-        { id: 3, title: 'ConferenceTicketGenerator', category: 'Web development', img: ConferenceTicketGenerator },
+        { id: 1, title: 'Flashcard Generator application', category: 'Web development', img: FlashcardGeneratorApp, url: 'https://flashcard-app-woad-zeta.vercel.app' },
+        { id: 2, title: 'Aferis Shoe Store', category: 'Web development', img: AferisShoeStore, url: 'https://aferis-client.vercel.app/' },
+        { id: 3, title: 'ConferenceTicketGenerator', category: 'Web development', img: ConferenceTicketGenerator, url: 'https://conference-ticket-generator-three.vercel.app' },
         { id: 4, title: 'Brawlhalla', category: 'Applications', img: project4 },
         { id: 5, title: 'DSM.', category: 'Web design', img: project5 },
         { id: 6, title: 'MetaSpark', category: 'Web design', img: project6 },
@@ -74,7 +74,7 @@ export default function Portfolio({ isActive }) {
           <ul className="project-list">
             {filteredProjects.map((project) => (
                 <li key={project.id} className='project-item active'>
-                    <a href="#">
+                    <a href={project.url} target="_blank" rel="noopener noreferrer">
                         <figure className="project-img">
                             <div className="project-item-icon-box">
                                 <ion-icon name="eye-outline" role="img" className="md hydrated" aria-label="eye outline"></ion-icon>
