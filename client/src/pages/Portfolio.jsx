@@ -8,6 +8,7 @@ import MultiStepForm  from '../assets/MultiStepForm.png';
 import ProductListCartComponent  from '../assets/ProductListCartComponent.png';
 import BentoGridChallenge  from '../assets/BentoGridChallenge.png';
 import RandomQuoteGenerator  from '../assets/RandomQuoteGenerator.png';
+import PersonalFinanceApp from '../assets/PersonalFinanceApp.png';
 import { useState } from 'react';
 
 
@@ -26,6 +27,7 @@ export default function Portfolio({ isActive }) {
         { id: 7, title: 'Product List Cart Component', category: 'Web development', img: ProductListCartComponent, url: 'https://product-cart-wheat-two.vercel.app/' },
         { id: 8, title: 'Bento Grid Challenge', category: 'Web development', img: BentoGridChallenge, url: 'https://robinjames25.github.io/Bento-Grid-Challenge/' },
         { id: 9, title: 'Random Quote Generator', category: 'Web development', img: RandomQuoteGenerator, url: 'https://quote-generator-nine-mu.vercel.app/' },
+        { id: 10, title: 'Personal Finance Application', category: 'Web development', img: PersonalFinanceApp, url: 'https://personal-finance-app-theta-dun.vercel.app/' },
     ]
 
     const filteredProjects = projects.filter(project =>
