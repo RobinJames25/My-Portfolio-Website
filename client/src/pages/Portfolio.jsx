@@ -29,7 +29,7 @@ export default function Portfolio({ isActive }) {
         { id: 8, title: 'Bento Grid Challenge', category: 'Web development', img: BentoGridChallenge, url: 'https://robinjames25.github.io/Bento-Grid-Challenge/' },
         { id: 9, title: 'Random Quote Generator', category: 'Web development', img: RandomQuoteGenerator, url: 'https://quote-generator-nine-mu.vercel.app/' },
         { id: 10, title: 'Personal Finance Application', category: 'Web development', img: PersonalFinanceApp, url: 'https://personal-finance-app-theta-dun.vercel.app/' },
-        { id: 11, title: 'Personal Blog Website', category: 'Web development', img: PersonalBlogWebsite, url: 'https://personal-blog-seven-omega.vercel.app/' },
+        { id: 11, title: 'Personal Blog Website', category: 'Web development', img: PersonalBlogWebsite, url: 'https://personal-portfolio-client-liard.vercel.app/' },
     ]
 
     const filteredProjects = projects.filter(project =>
