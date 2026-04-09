@@ -10,7 +10,7 @@ import BentoGridChallenge  from '../assets/BentoGridChallenge.png';
 import RandomQuoteGenerator  from '../assets/RandomQuoteGenerator.png';
 import PersonalFinanceApp from '../assets/PersonalFinanceApp.png';
 import PersonalBlogWebsite from '../assets/PersonalBlogWebsite.png';
-import EduVision from '../assets/EduVision.png';
+import EduVision from '../assets/Eduvision.png';
 import { useState } from 'react';
 
 
