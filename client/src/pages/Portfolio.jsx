@@ -33,14 +33,14 @@ export default function Portfolio({ isActive }) {
         { id: 10, title: 'Personal Finance Application', category: 'Web development', img: PersonalFinanceApp, url: 'https://personal-finance-app-theta-dun.vercel.app/' },
         { id: 11, title: 'Personal Blog Website', category: 'Web development', img: PersonalBlogWebsite, url: 'https://personal-portfolio-client-liard.vercel.app/' },
         { id: 12, title: 'Edu Vision', category: 'Web development', img: EduVision, url: 'https://eduvision-tawny.vercel.app/' },
-        { id: 13, titke: 'Water Tracker', categories: 'Agentic AI', img: WaterTracker, url: 'https://water-tracker-theesith.streamlit.app/'}
+        { id: 13, titke: 'Water Tracker', categories: 'Artificial Intelligence', img: WaterTracker, url: 'https://water-tracker-theesith.streamlit.app/'}
     ]
 
     const filteredProjects = projects.filter(project =>
         selectedCategory === 'All' || project.category === selectedCategory
     )
 
-    const categories = ['All', 'Web design', 'Applications', 'Web development'];
+    const categories = ['All', 'Web design', 'Applications', 'Web development', 'Artificial Intelligence'];
 
     const [isSelectOpen, setIsSelectOpen] = useState(false);
 
