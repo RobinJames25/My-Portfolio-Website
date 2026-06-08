@@ -40,7 +40,7 @@ export default function Portfolio({ isActive }) {
         selectedCategory === 'All' || project.category === selectedCategory
     )
 
-    const categories = ['All', 'Web design', 'Applications', 'Web development', 'Artificial Intelligence'];
+    const categories = ['All', 'Web design', 'Web development', 'Artificial Intelligence'];
 
     const [isSelectOpen, setIsSelectOpen] = useState(false);
 
